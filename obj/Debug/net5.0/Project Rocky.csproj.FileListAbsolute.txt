@@ -1,0 +1,39 @@
+/home/peribot/Dev/web_design_and_dev_backend/NET/Project Rocky/bin/Debug/net5.0/appsettings.Development.json
+/home/peribot/Dev/web_design_and_dev_backend/NET/Project Rocky/bin/Debug/net5.0/appsettings.json
+/home/peribot/Dev/web_design_and_dev_backend/NET/Project Rocky/bin/Debug/net5.0/Project Rocky
+/home/peribot/Dev/web_design_and_dev_backend/NET/Project Rocky/bin/Debug/net5.0/Project Rocky.deps.json
+/home/peribot/Dev/web_design_and_dev_backend/NET/Project Rocky/bin/Debug/net5.0/Project Rocky.runtimeconfig.json
+/home/peribot/Dev/web_design_and_dev_backend/NET/Project Rocky/bin/Debug/net5.0/Project Rocky.runtimeconfig.dev.json
+/home/peribot/Dev/web_design_and_dev_backend/NET/Project Rocky/bin/Debug/net5.0/Project Rocky.dll
+/home/peribot/Dev/web_design_and_dev_backend/NET/Project Rocky/bin/Debug/net5.0/Project Rocky.pdb
+/home/peribot/Dev/web_design_and_dev_backend/NET/Project Rocky/bin/Debug/net5.0/Project Rocky.Views.dll
+/home/peribot/Dev/web_design_and_dev_backend/NET/Project Rocky/bin/Debug/net5.0/Project Rocky.Views.pdb
+/home/peribot/Dev/web_design_and_dev_backend/NET/Project Rocky/obj/Debug/net5.0/Project Rocky.csproj.AssemblyReference.cache
+/home/peribot/Dev/web_design_and_dev_backend/NET/Project Rocky/obj/Debug/net5.0/Project Rocky.GeneratedMSBuildEditorConfig.editorconfig
+/home/peribot/Dev/web_design_and_dev_backend/NET/Project Rocky/obj/Debug/net5.0/Project Rocky.AssemblyInfoInputs.cache
+/home/peribot/Dev/web_design_and_dev_backend/NET/Project Rocky/obj/Debug/net5.0/Project Rocky.AssemblyInfo.cs
+/home/peribot/Dev/web_design_and_dev_backend/NET/Project Rocky/obj/Debug/net5.0/Project Rocky.csproj.CoreCompileInputs.cache
+/home/peribot/Dev/web_design_and_dev_backend/NET/Project Rocky/obj/Debug/net5.0/Project Rocky.MvcApplicationPartsAssemblyInfo.cache
+/home/peribot/Dev/web_design_and_dev_backend/NET/Project Rocky/obj/Debug/net5.0/Project Rocky.RazorAssemblyInfo.cache
+/home/peribot/Dev/web_design_and_dev_backend/NET/Project Rocky/obj/Debug/net5.0/Project Rocky.RazorAssemblyInfo.cs
+/home/peribot/Dev/web_design_and_dev_backend/NET/Project Rocky/obj/Debug/net5.0/scopedcss/bundle/Project Rocky.styles.css
+/home/peribot/Dev/web_design_and_dev_backend/NET/Project Rocky/obj/Debug/net5.0/staticwebassets/Project Rocky.StaticWebAssets.Manifest.cache
+/home/peribot/Dev/web_design_and_dev_backend/NET/Project Rocky/obj/Debug/net5.0/Project Rocky.TagHelpers.input.cache
+/home/peribot/Dev/web_design_and_dev_backend/NET/Project Rocky/obj/Debug/net5.0/Project Rocky.TagHelpers.output.cache
+/home/peribot/Dev/web_design_and_dev_backend/NET/Project Rocky/obj/Debug/net5.0/Project Rocky.RazorCoreGenerate.cache
+/home/peribot/Dev/web_design_and_dev_backend/NET/Project Rocky/obj/Debug/net5.0/Razor/Views/Home/Index.cshtml.g.cs
+/home/peribot/Dev/web_design_and_dev_backend/NET/Project Rocky/obj/Debug/net5.0/Razor/Views/Home/Privacy.cshtml.g.cs
+/home/peribot/Dev/web_design_and_dev_backend/NET/Project Rocky/obj/Debug/net5.0/Razor/Views/Shared/Error.cshtml.g.cs
+/home/peribot/Dev/web_design_and_dev_backend/NET/Project Rocky/obj/Debug/net5.0/Razor/Views/Shared/_Layout.cshtml.g.cs
+/home/peribot/Dev/web_design_and_dev_backend/NET/Project Rocky/obj/Debug/net5.0/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
+/home/peribot/Dev/web_design_and_dev_backend/NET/Project Rocky/obj/Debug/net5.0/Razor/Views/_ViewImports.cshtml.g.cs
+/home/peribot/Dev/web_design_and_dev_backend/NET/Project Rocky/obj/Debug/net5.0/Razor/Views/_ViewStart.cshtml.g.cs
+/home/peribot/Dev/web_design_and_dev_backend/NET/Project Rocky/obj/Debug/net5.0/Project Rocky.RazorTargetAssemblyInfo.cache
+/home/peribot/Dev/web_design_and_dev_backend/NET/Project Rocky/obj/Debug/net5.0/Project Rocky.RazorTargetAssemblyInfo.cs
+/home/peribot/Dev/web_design_and_dev_backend/NET/Project Rocky/obj/Debug/net5.0/Project Rocky.Views.pdb
+/home/peribot/Dev/web_design_and_dev_backend/NET/Project Rocky/obj/Debug/net5.0/Project Rocky.dll
+/home/peribot/Dev/web_design_and_dev_backend/NET/Project Rocky/obj/Debug/net5.0/refint/Project Rocky.dll
+/home/peribot/Dev/web_design_and_dev_backend/NET/Project Rocky/obj/Debug/net5.0/Project Rocky.pdb
+/home/peribot/Dev/web_design_and_dev_backend/NET/Project Rocky/obj/Debug/net5.0/Project Rocky.genruntimeconfig.cache
+/home/peribot/Dev/web_design_and_dev_backend/NET/Project Rocky/obj/Debug/net5.0/ref/Project Rocky.dll
+/home/peribot/Dev/web_design_and_dev_backend/NET/Project Rocky/obj/Debug/net5.0/Project Rocky.csproj.CopyComplete

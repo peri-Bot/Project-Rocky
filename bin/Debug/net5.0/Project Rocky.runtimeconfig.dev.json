@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/home/peribot/.dotnet/store/|arch|/|tfm|",
+      "/home/peribot/.nuget/packages"
+    ]
+  }
+}
