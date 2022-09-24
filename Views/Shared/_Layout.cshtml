@@ -9,29 +9,86 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm  border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm  border-bottom box-shadow mb-3">
             <div class="container">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                <div class="navbar-collapse collapse  justify-content-between">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" id="navbarDropDown" href="#" aria-expanded="false">Buy</a>
+                             <ul class="dropdown-menu"  aria-labelledby="navbarDropDown">
+                                <span><p>Homes for sale</p></span>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Homes for sale</a></li>
+                                <li><a class="dropdown-item" href="#">Foreclosures</a></li>
+                                <li><a class="dropdown-item" href="#">For sale by owner</a></li>
+                                <li><a class="dropdown-item" href="#">Open houses</a></li>
+                                <li><a class="dropdown-item" href="#">All homes</a></li>
+                             </ul>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" id="navbarDropDown" href="#" aria-expanded="false">Rent</a>
+                             <ul class="dropdown-menu"  aria-labelledby="navbarDropDown">
+                                <span><p>Search for rentals</p></span>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Rental building</a></li>
+                                <li><a class="dropdown-item" href="#">Apartements for rent</a></li>
+                                <li><a class="dropdown-item" href="#">Houses for rent</a></li>
+                                <li><a class="dropdown-item" href="#">Your rental</a></li>
+                                <li><a class="dropdown-item" href="#">All rental listings</a></li>
+                                <li><a class="dropdown-item" href="#">All rental buildings</a></li>
+                             </ul>
                         </li>
+                         <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" id="navbarDropDown" href="#" aria-expanded="false">Sell</a>
+                             <ul class="dropdown-menu"  aria-labelledby="navbarDropDown">
+                                <span><p>Resources</p></span>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Explore your options</a></li>
+                                <li><a class="dropdown-item" href="#">See your homes estimate</a></li>
+                                <li><a class="dropdown-item" href="#">Home values</a></li>
+                                <li><a class="dropdown-item" href="#">Sellers guide</a></li>
+                             </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" id="navbarDropDown" href="#" aria-expanded="false">Agent finder</a>
+                             <ul class="dropdown-menu"  aria-labelledby="navbarDropDown">
+                                <span><p>Looking for pros?</p></span>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Real estate agent</a></li>
+                                <li><a class="dropdown-item" href="#">Property managers</a></li>
+                                <li><a class="dropdown-item" href="#">Home inspectors</a></li>
+                             </ul>
+                        </li>
+                        <div class="vl"></div>
+                         <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" id="navbarDropDown" href="#" aria-expanded="false">Manage Rentals</a>
+                             <ul class="dropdown-menu"  aria-labelledby="navbarDropDown">
+                                <span><p>List a rental</p></span>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">List a rental</a></li>
+                                <li><a class="dropdown-item" href="#">My listings</a></li>
+                                <li><a class="dropdown-item" href="#">Leases</a></li>
+                                <li><a class="dropdown-item" href="#">Payments</a><li>  
+                             </ul>
+                         </li>
+                         <li class="nav-item">
+                            <a class="nav-link" r href="#">Advertise</a>
+                         <li> <li class="nav-item">
+                            <a class="nav-link" r href="#">Sign in</a>
+                         <li>
                     </ul>
                 </div>
-                <div class="brand-centered">
+                <div class="brand">
                      <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Project_Rocky</a>
                 </div>
             </div>
         </nav>
     </header>
-    <div class="container">
+    <div class="container" style="padding-top:-18px; margin-top:-18px">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>

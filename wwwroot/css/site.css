@@ -7,30 +7,58 @@ a.navbar-brand {
   word-break: break-all;
   font-size:  30px;
 }
+
+.vl {
+  border-left: 4px solid white;
+  height: 40px;
+}
 .navbar{
   background-image: linear-gradient(-110deg,rgb(9, 132, 227),rgb(45, 52, 54));
 }
-
+.brand .navbar-brand:hover{
+  color:whitesmoke;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu
+{margin-top: 0;}  
 /* Provide sufficient contrast against white background */
 a {
   color: #fff;
 }
-
+span>p {
+  font-weight:600;
+  padding-left: 10px;
+}
 .btn-primary {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
 .nav-link{
-  font-weight: 300;
-  font-size: 20px;
-  color:fff;
+  font-weight: 500;
+  font-size: 17px;
+  color:#fff;
 }
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+.nav-link:hover{
+  font-weight: 600;
+  border-bottom:5px solid #FA8128;
+  color:#FA8128;
+}
+.dropdown-menu:hover{
+  font-weight: 600;
+  border-bottom:5px solid #FA8128;
+  color:#FA8128;
+}
+.dropdown-toggle::after {
+  content: none;
+}
+/* .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
-}
+} */
 
 /* Sticky footer styles
 -------------------------------------------------- */
@@ -76,4 +104,22 @@ body {
   width: 100%;
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
+}
+
+/* ----------------------------------------------------- */
+.Main-content {
+  padding-top: 0;
+}
+.full-width-image {
+  width: 100vw;
+  position: relative;
+  left: 50%;  
+  margin-left: -50vw;
+  padding: 0;
+  background-image: url("https://imgs.search.brave.com/wyCExr2tdBaxbzv45qXtlLEfsyUg99B_HVxrfoJL5O4/rs:fit:1095:420:1/g:ce/aHR0cHM6Ly93d3cu/cmVhbGVzdGF0ZS1l/dC5jb20vd3AtY29u/dGVudC91cGxvYWRz/L1dQTC80L3RoaW1n/XzIwMTUtMTMtMDMt/cmVhbC1lc3RhdGUt/aW4tZXRoaW9waWEt/dmlsbGEtZm9yLXNh/bGUtaW4tYm9sZS1p/bWFnZS0wMV8xMDk1/eDQyMC5qcGc");
+}
+
+.full-width-image img {
+ width: 100%;
+ height: 20vw;
 }
