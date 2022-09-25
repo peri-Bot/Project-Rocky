@@ -13,7 +13,7 @@ a.navbar-brand {
   height: 40px;
 }
 .navbar{
-  background-image: linear-gradient(-110deg,rgb(9, 132, 227),rgb(45, 52, 54));
+  background-image: linear-gradient(310deg,rgb(9, 132, 227),rgb(45, 52, 54));
 }
 .brand .navbar-brand:hover{
   color:whitesmoke;
@@ -99,16 +99,24 @@ body {
   margin-bottom: 60px;
 }
 .footer {
+  background-color:white;
   position: absolute;
   bottom: 0;
   width: 100%;
+  
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
+#footerImage{
+  height: 161px;
+}
 
 /* ---------------------Index-------------------------------- */
-.Main-content {
-  padding-top: 0;
+.main {
+  width: 100%;
+}
+body{
+  background-color:whitesmoke;
 }
 .full-width-image {
   width: 100vw;
@@ -119,7 +127,7 @@ body {
 }
 .full-width-image img {
  width: 100%;
- height: 16vw;
+ height: 21vw;
 }
 #searchBox{
   position:absolute; 
@@ -161,16 +169,91 @@ body {
   color: #012F43
 }
 #card{
-  position: relative;
+  width: 1110px;
+  margin-left:443px;
   padding-top: 70px;
+  padding-bottom:100px;
 }
 .card{
-  height: 440px;
+  height: 489px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: all 0.3s ease-in-out;
+}
+.card::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transition: opacity 0.3s ease-in-out;
+}
+.card:hover {
+  transform: scale(1.1, 1.1);
+
+}
+.card:hover::after {
+  opacity: 1;
 }
 .card-title{
   text-align: center;
   font-weight: 700;
 }
+.card-img-top{
+  height: 186px;
+}
 #btn{
   padding-bottom: 47px;
+}
+.wrapper{
+  background-color:white;
+  height:5vw;
+
+
+}
+.vl2 {
+  border-left: 1px solid black;
+  height: 40px;
+  margin-left:53px;
+  margin-right:53px;
+  margin-top:25px;
+}
+.wrapper{
+  padding-left: 54px;
+}
+.wrapper .btn{
+  margin-top:20px;
+  height:55%; 
+  font-weight:bold; 
+  font-size:18px;
+  border: none;
+}
+.wrapper .btn:active,.wrapper button.btn:active, 
+.wrapper button.btn:focus, 
+.wrapper button.btn:target, 
+.wrapper button.btn:active:focus {
+  background-color: #fff;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #41403e;
+  line-height: 23px;
+  outline: none;
+  padding: .75rem;
+  text-decoration: none;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+}
+.wrapper .btn:hover{
+  text-decoration: underline;
 }
