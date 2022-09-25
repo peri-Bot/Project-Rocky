@@ -106,7 +106,7 @@ body {
   line-height: 60px; /* Vertically center the text there */
 }
 
-/* ----------------------------------------------------- */
+/* ---------------------Index-------------------------------- */
 .Main-content {
   padding-top: 0;
 }
@@ -116,10 +116,61 @@ body {
   left: 50%;  
   margin-left: -50vw;
   padding: 0;
-  background-image: url("https://imgs.search.brave.com/wyCExr2tdBaxbzv45qXtlLEfsyUg99B_HVxrfoJL5O4/rs:fit:1095:420:1/g:ce/aHR0cHM6Ly93d3cu/cmVhbGVzdGF0ZS1l/dC5jb20vd3AtY29u/dGVudC91cGxvYWRz/L1dQTC80L3RoaW1n/XzIwMTUtMTMtMDMt/cmVhbC1lc3RhdGUt/aW4tZXRoaW9waWEt/dmlsbGEtZm9yLXNh/bGUtaW4tYm9sZS1p/bWFnZS0wMV8xMDk1/eDQyMC5qcGc");
 }
-
 .full-width-image img {
  width: 100%;
- height: 20vw;
+ height: 16vw;
+}
+#searchBox{
+  position:absolute; 
+  top:108px;
+  left:557px;
+  width: 50vw;
+}
+.search{
+  position: relative;
+  box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+}
+.search input{
+   height: 60px;
+   text-indent: 25px;
+   border: 2px solid #d6d4d4;
+}
+.search input:focus{
+   box-shadow: none;
+   border: 2px solid blue;
+}
+.search .fa-search{
+   position: absolute;
+   top: 10px;
+   left: 16px;
+
+}
+.search button{
+   position: absolute;
+   top: 5px;
+   right: 5px;
+   height: 50px;
+   width: 110px;
+   background: blue;
+}
+#searchTxt{
+  font-weight: 1000;
+  font-size: 30px;
+  text-align: center;
+  color: #012F43
+}
+#card{
+  position: relative;
+  padding-top: 70px;
+}
+.card{
+  height: 440px;
+}
+.card-title{
+  text-align: center;
+  font-weight: 700;
+}
+#btn{
+  padding-bottom: 47px;
 }
