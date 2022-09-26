@@ -308,3 +308,27 @@ body{
 .wrapper .btn:hover{
   text-decoration: underline;
 }
+#listing{
+  background-color:white;
+  position:relative;
+}
+.list ul > li{
+  list-style:none;
+}
+.list ul > li > a{
+  color:#1e90ff;
+}
+#realEstate{
+  margin-left:530px;
+  width:200px;
+}
+#rentals{
+  width:200px;
+  background-color:white;
+}
+#mortgageRates{
+  margin-left:70px;
+}
+#homes{
+  margin-left:97px;
+}
