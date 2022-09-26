@@ -6,7 +6,8 @@ a.navbar-brand {
   text-align: center;
   word-break: break-all;
   font-size:  33px;
-  color: #0892d0;
+  color: #0619d2;
+  font-weight:800;
 }
 
 .vl {
@@ -30,7 +31,7 @@ a.navbar-brand {
 {margin-top: 0;}  
 /* Provide sufficient contrast against white background */
 a {
-  color: #fff;
+  color: gray;
 }
 span>p {
   font-weight:600;
@@ -76,12 +77,12 @@ html {
   }
 }
 
-.border-top {
-  border-top: 1px solid #e5e5e5;
+/* .border-top {
+  border-top: 1px solid #c0beb9;
 }
 .border-bottom {
-  border-bottom: 1px solid #e5e5e5;
-}
+  border-bottom: 1px solid #c0beb9;
+} */
 
 .box-shadow {
   box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
@@ -105,19 +106,58 @@ body {
 }
 .footer {
   background-color:white;
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
-  
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
+  margin-top: -17px;
+  height: auto;
+ 
 }
-#footerImage{
-  height: 161px;
+.footer-text {
+  height: auto;
+  display: inline-block;
+  white-space:normal;
+}
+.footer-text p{
+  height: auto;
+  font-size:10px;
+  text-align: center;
+  padding-left: 45px;
+}
+.links{
+  margin-left: 40px;
+  border-top: 1px solid #c0beb9;
+  border-bottom: 1px solid #c0beb9;
+}
+.links ul > li {
+  list-style:none;
+  display:inline-block;
+  margin: 10px;
+}
+.mdi-36px {
+  font-size: 39px;
+  margin-right:10px;
+}
+.footer-image{
+  background-image: url('https://s.zillowstatic.com/pfs/static/footer-art.svg');
+  height: 160px;
+  margin-top: 115px;
+  margin-bottom:-61px;
+}
+.social-links{
+  margin: 0 auto;
+  position: absolute;
+  top: 55%;
+  left: 36%;
+}
+#footer-logo{
+  margin-left: 50px;
 }
 
 /* ---------------------Index-------------------------------- */
-.main {
+.main{
   width: 100%;
 }
 body{
@@ -130,7 +170,7 @@ body{
   margin-left: -50vw;
   padding: 0;
   background-image: url('https://i.pinimg.com/564x/86/3d/db/863ddba8b61fd15c21342f212b04ff97.jpg');
-  /* background-position: 0 90%; */
+  background-position: bottom;
   background-repeat: repeat no-repeat;
   background-color: white;
   /* background-size: 4px 3px; */
@@ -142,7 +182,7 @@ body{
 } */
 #searchBox{
   position:absolute; 
-  top:108px;
+  top:80px;
   left:557px;
   width: 50vw;
 }
@@ -177,7 +217,7 @@ body{
   font-weight: 1000;
   font-size: 30px;
   text-align: center;
-  color: #012F43
+  color: #2b2b4d;
 }
 #card{
   width: 1110px;
@@ -221,8 +261,6 @@ body{
 .wrapper{
   background-color:white;
   height:5vw;
-
-
 }
 .vl2 {
   border-left: 1px solid black;
@@ -233,6 +271,8 @@ body{
 }
 .wrapper{
   padding-left: 54px;
+  white-space: nowrap;
+    
 }
 .wrapper .btn{
   margin-top:20px;
