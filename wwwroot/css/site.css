@@ -5,7 +5,8 @@ a.navbar-brand {
   white-space: normal;
   text-align: center;
   word-break: break-all;
-  font-size:  30px;
+  font-size:  33px;
+  color: #0892d0;
 }
 
 .vl {
@@ -13,7 +14,11 @@ a.navbar-brand {
   height: 40px;
 }
 .navbar{
-  background-image: linear-gradient(310deg,rgb(9, 132, 227),rgb(45, 52, 54));
+  /* background: linear-gradient(310deg,rgb(9, 132, 227),rgb(45, 52, 54)); */
+  background: #30E8BF;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ece9e3, #c0beb9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ece9e3, #c0beb9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 .brand .navbar-brand:hover{
   color:whitesmoke;
@@ -39,7 +44,7 @@ span>p {
 .nav-link{
   font-weight: 500;
   font-size: 17px;
-  color:#fff;
+  color:#080808;
 }
 .nav-link:hover{
   font-weight: 600;
@@ -124,11 +129,17 @@ body{
   left: 50%;  
   margin-left: -50vw;
   padding: 0;
+  background-image: url('https://i.pinimg.com/564x/86/3d/db/863ddba8b61fd15c21342f212b04ff97.jpg');
+  /* background-position: 0 90%; */
+  background-repeat: repeat no-repeat;
+  background-color: white;
+  /* background-size: 4px 3px; */
+  height: 21vw;
 }
-.full-width-image img {
+/* .full-width-image img {
  width: 100%;
  height: 21vw;
-}
+} */
 #searchBox{
   position:absolute; 
   top:108px;
